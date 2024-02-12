@@ -1,0 +1,35 @@
+body{
+     background-color: rgb(194, 194, 143);
+     margin-left: 50px;
+     
+     background-size: cover;
+    background-attachment: fixed;
+}
+.background-image{
+     margin: 20rem;
+     background: url(background.jpg);
+}
+.wrapper{
+     margin-top: 20px;
+     font-family: Cambria;
+}
+h1{
+     font-size: 50px;
+}
+.paragraph-style{
+     margin-right: 25rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+     list-style: none;
+}
+li{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     display: inline-flex;
+     flex-wrap: wrap;
+     margin: auto;
+     padding: 20px;
+}
+li:hover{
+     background-color: rgba(34, 34, 32, 0.3);
+}
