@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: sans-serif;
+            background: url(background/cakechoices.jpg) no-repeat center center/cover;
+            line-height: 1.6;
+            height: 100vh;
+        }
+
+        .menu-area {
+            width: auto;
+            margin: 20px;
+            overflow: hidden;
+            position: absolute;
+
+        }
+
+        .menu-area ul {
+            margin: inherit;
+            padding: 0;
+            list-style: none;
+        }
+
+        .menu-area ul li {
+            float: left;
+            margin-bottom: -15;
+
+        }
+
+        .mainbuttons a {
+            width: 120px;
+            display: block;
+            padding: 10px;
+            color: black;
+            background-color: rgba(241, 241, 223, .8);
+            text-decoration: none;
+            font-family: Tahoma;
+            font-size: 22px;
+            text-align: center;
+            border-radius: 25px;
+        }
+
+        .mainbuttons a:hover {
+            background-color: rgba(241, 241, 223, .5);
+            color: rgba(0, 0, 0, .7);
+        }
+
+        .scrolling-box {
+            margin-top: 50px;
+            dsiplay: block;
+            height: auto;
+            text-align: justify;
+            width: auto;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+            justify-content: center;
+
+        }
+
+        section h1 {
+            margin-top: clamp(10px, 100px, 200px);
+            text-align: center;
+            padding-top: 20px;
+            font-size: 50px;
+        }
+
+        section p {
+            font-family: segoe print;
+            text-align: justify-all;
+            font-size: 30px;
+            margin-left: clamp(10px, 100px, 200px);
+            margin-right: clamp(10px, 100px, 200px);
+            margin-top: clamp(10px, 50px, 100px);
+            margin-bottom: clamp(10px, 50px, 100px);
+        }
+
+        section#pastrymenu {
+            background: url(background/fruitcake.jpg) no-repeat center center/cover;
+            color: black;
+            font-family: cursive;
+        }
+
+        section#additional {
+            background: url(background/cupcake.jpg) no-repeat center center/cover;
+            color: black;
+        }
+
+        section#additional2 {
+            background: url(background/cupcake.jpg) no-repeat center center/cover;
+            color: black;
+        }
+
+        .transparency {
+            /*height: 100vh; */
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .transparency2 {
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        #table {
+            width: 55%;
+            border-radius: 10px;
+            border: 10px solid;
+            padding: 15px;
+            background-color: rgba(253, 253, 209, .82);
+            font-size: 20px;
+            text-align: center;
+            border-top-color: red;
+            border-left-color: green;
+            border-bottom-color: pink;
+            border-right-color: black;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        figcaption {
+            padding-bottom: 20px;
+        }
+
+    </style>
+    <title> Louie Salvador Elective 3 Finals </title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="menu-area position-sticky">
+            <ul>
+
+                <div class="mainbuttons">
+
+                    <li><a href="#home">HOME</a></li>
+                    <li> <a href="#pastrymenu">MENU</a></li>
+                </div>
+                <li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="scrolling-box">
+            <section id="home">
+                <div class="transparency">
+                    <h1>MTB RESTAURANT</h1>
+                    <center>
+                        <p>Bread and Pastry</p>
+                    </center>
+                </div>
+            </section>
+
+            <section id="pastrymenu">
+                <div class="transparency2">
+                    <h1>Our Delicacies</h1>
+                    <!--The menu -->
+
+                    <center>
+                        <table id="table">
+                            <tr>
+                                <th colspan="7" id="schedules">Cake Prices</th>
+                            </tr>
+                            <tr>
+                                <th>Choices</th>
+                                <th>Size</th>
+                                <th>Price</th>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <center><img src="yellowbuttercake.jpg" height=150 width=190></img>
+                                        <figcaption>Yellow Buttercake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Medium</td>
+                                <td>Php 500</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <center><img src="poundcake.jpg" height=150 width=190></img>
+                                        <figcaption>Pound Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Small</td>
+                                <td>Php 250</td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <center><img src="redvelvetcake.jpg" height=150 width=190></img>
+                                        <figcaption>Red Velvet Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Large</td>
+                                <td>Php 1,000</td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <center><img src="carrotcake.jpg" height=150 width=190></img>
+                                        <figcaption>Carrot Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Small</td>
+                                <td>Php 250</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <center><img src="spongecake.jpg" height=150 width=190></img>
+                                        <figcaption>Sponge Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Large</td>
+                                <td>Php 1,000</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <center><img src="genoisecake.jpg" height=150 width=190></img>
+                                        <figcaption>Genoise Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Medium</td>
+                                <td>Php 500</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <center><img src="chiffoncake.jpg"height=150 width=190></img>
+                                        <figcaption>Chiffon Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Medium</td>
+                                <td>Php 300</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <center><img src="monsterchococake.jpg" height=150 width=190></img>
+                                        <figcaption>Monster Choco Cake</figcaption>
+                                    </center>
+                                </td>
+                                <td>Large</td>
+                                <td>Php 1,000</td>
+
+                            </tr>
+
+
+                        </table>
+                    </center>
+
+                </div>
+
+            </section>
+
+
+            <section id="additional">
+                <div class="transparency"></div>
+            </section>
+
+            <section id="additional">
+                <div class="transparency"></div>
+            </section>
+
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
